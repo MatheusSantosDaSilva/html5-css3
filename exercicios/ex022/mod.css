@@ -37,30 +37,47 @@ a{
 a:hover{
     text-decoration:underline;
 }
-.p{
+header >p{
     padding: 2em;
     margin-block-end: 1em;
     margin-block-start: 1em;
 }
 section{
-    padding: 10vh 0vh 10vh 0vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     padding-left: 30px;
     line-height: 2em;
-    font-size: 3.5vw;
+    font-size: 25px;
     font-family: var(--font3);
+}
+section > p{
+    padding-bottom: 2em;
 }
 section.normal{
     background-color: white;
 }
 section.foto{
+    background-size: cover;
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.733);
+    background-attachment: fixed;
     background-color:rgb(59, 59, 59)
 }
+section#ft01{
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+}
+section#ft02{
+    background-image: url(imagens/background002.jpg);
+    background-position: right center;
+}
 section.foto > p {
-    background-color: rgba(0, 0, 0, 0.342);
+    background-color: rgba(0, 0, 0, 0.336);
     display: inline-block;
     padding: 10px;
+    text-shadow: 1px 1px 0px black;
 }
+
 footer{
     background-color: black;
     color: white;
