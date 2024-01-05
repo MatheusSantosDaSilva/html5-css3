@@ -1,16 +1,52 @@
-body{
-    padding: 0px;
+ *{
     margin: 0px;
+    padding: 0px;
+ }
+ html body{
+    min-height:100vh ;
+    background-color: darkgray;
 }
 header{
     background-color: black;
     color: white;
     text-align: center;
-    height: 150px;
+    padding-bottom:50px ;
     padding-top: 50px;
+}
+header > h1 {
+    font-variant: small-caps;
+}
+a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration:underline;
 }
 .p{
     padding: 2em;
     margin-block-end: 1em;
     margin-block-start: 1em;
+}
+section{
+    padding: 10vh 0vh 10vh 0vh;
+    padding-left: 30px;
+    line-height: 2em;
+}
+section.normal{
+    background-color: white;
+}
+section.foto{
+    color: white;
+    background-color:rgb(59, 59, 59)
+}
+section.foto > p {
+    background-color: rgba(0, 0, 0, 0.342);
+    width:400px;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
 }
